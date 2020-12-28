@@ -1,0 +1,12 @@
+description = "Translator";
+host = "saptranslation-PUSER.hanatrial.ondemand.com";
+port = 443;
+pathPrefix = "/translationhub/api/v1/";
+proxyType = none;
+proxyHost = "proxy";
+proxyPort = 8080;
+authType = basic;
+useSSL = true;
+timeout = 3000;
+sslHostCheck = true;
+sslAuth = anonymous;
