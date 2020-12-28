@@ -1,0 +1,10 @@
+description = "SF";
+host = "apisa****.successfactors.com";
+port = 443;
+pathPrefix = "/odata/v2";
+useProxy = true;
+proxyHost = "proxy";
+proxyPort = 8080;
+authType = basic;
+useSSL = true;
+timeout = 0;
